@@ -8,7 +8,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 
-	cout << "Privet LR1!\n";
+	cout << "Привет, ЛР1!\n";
 	time_t now = time(0);
 	tm ltm;
 	localtime_s(&ltm, &now);
